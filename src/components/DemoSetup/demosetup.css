@@ -1,0 +1,90 @@
+#first {
+	background-image: url(../../assets//background.jpg);
+	background-size: cover;
+	flex-direction: column-reverse;
+}
+
+#second {
+	background: rgb(5 149 91);
+	flex-direction: column;
+}
+
+.demo-setup {
+	display: flex;
+	gap: 1.5rem;
+	padding: 2.3rem;
+}
+
+.setup-detail {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	align-items: flex-start;
+}
+
+.setup-detail > h2 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+	text-align: left;
+	margin: 0.5rem 0;
+	letter-spacing: 1px;
+}
+
+.setup-detail > p {
+	font-size: 1.1rem;
+	line-height: 2rem;
+	margin: 0;
+	text-align: left;
+}
+
+.setup-detail > button {
+	background-color: var(--light_green);
+	color: #000;
+	font-size: 1.2rem;
+	padding: 1rem 5rem;
+	border-radius: 15px;
+	box-shadow: 0px 2px 5px var(--dark_green);
+	border: 1px solid var(--light_green);
+	font-weight: 600;
+	transition: all ease-in-out 0.25s;
+}
+
+.setup-detail > button:hover {
+	background-color: transparent;
+	transform: scale(1.1);
+}
+
+.demo-setup > img {
+	height: 250px;
+	border: 3px solid #fff;
+	border-radius: 20px;
+	margin: 2rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.demo-setup > img:hover {
+	transform: scaleX(-1);
+}
+
+#first h2,
+#first p {
+	color: #000;
+}
+
+#second h2,
+#second p {
+	color: #fff;
+}
+
+@media screen and (min-width: 48em) {
+	#first,
+	#second {
+		flex-direction: row;
+		align-items: center;
+		padding: 6rem 3rem;
+	}
+
+	.setup-detail {
+		gap: 1.5rem;
+	}
+}

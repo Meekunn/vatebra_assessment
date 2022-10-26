@@ -35,8 +35,8 @@
 	font-size: 3.5rem;
 	margin-top: 1rem;
 	color: var(--green);
-	transform: scaleX(-1);
 	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
 }
 
 .service > .detail {
