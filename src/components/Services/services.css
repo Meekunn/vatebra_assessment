@@ -1,0 +1,78 @@
+.services-wrapper {
+	display: flex;
+	padding: 3rem;
+	justify-content: center;
+	align-items: center;
+	background-color: #e5e2e2;
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	font-family: var(--font);
+}
+
+.service-section {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+.service {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 1.5rem;
+	transition: all 0.25s ease-in;
+}
+
+.service:hover {
+	transform: scale(1.15);
+}
+
+.service > .icon {
+	font-size: 3.5rem;
+	margin-top: 1rem;
+	color: var(--green);
+	transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+}
+
+.service > .detail {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	align-items: flex-start;
+}
+
+.service > .detail > h2 {
+	font-size: 1.3rem;
+	color: var(--green);
+	margin: 0.5rem 0;
+}
+
+.service > .detail > p {
+	font-size: 1rem;
+	color: #000;
+	text-align: left;
+	margin: 0;
+}
+
+@media screen and (min-width: 48em) {
+	.services-wrapper {
+		padding: 5rem;
+	}
+	.services {
+		width: 80%;
+		gap: 3.5rem;
+	}
+	.service-section {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.service {
+		width: 35%;
+	}
+}
