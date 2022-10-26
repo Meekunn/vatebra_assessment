@@ -1,6 +1,7 @@
 .footer {
-	position: absolute;
-	bottom: 0;
+	/* position: relative;
+	bottom: 0; */
+	margin-top: auto;
 	display: flex;
 	flex-direction: column;
 	gap: 2.5rem;
