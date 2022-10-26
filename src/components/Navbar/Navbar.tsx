@@ -2,11 +2,10 @@ import { useState } from "react";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { MdMenu } from "react-icons/md";
 import { TiTimes } from "react-icons/ti";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
-	const navigate = useNavigate();
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<header className="header">
