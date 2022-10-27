@@ -14,10 +14,10 @@
 }
 
 .testimonials > h2 {
-	font-size: 2.3rem;
+	font-size: 1.6rem;
 	color: #fff;
 	letter-spacing: 1.5px;
-	line-height: 3rem;
+	line-height: 2.5rem;
 }
 
 .testimonies {
@@ -118,5 +118,10 @@
 	.testimonials > h2,
 	.testimonies {
 		width: 50%;
+	}
+
+	.testimonials > h2 {
+		font-size: 2.3rem;
+		line-height: 3rem;
 	}
 }

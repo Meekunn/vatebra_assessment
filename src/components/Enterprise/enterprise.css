@@ -77,16 +77,17 @@
 .enterprise-card > h3 {
 	margin: 0;
 	color: var(--dark_green);
-	line-height: 2.5rem;
+	line-height: 2rem;
 	letter-spacing: 1.5px;
-	font-size: 2rem;
+	font-size: 1.5rem;
+	text-align: left;
 }
 
 .enterprise-card > p {
 	margin: 0;
 	color: #000;
 	text-align: left;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	line-height: 2rem;
 }
 
@@ -95,8 +96,8 @@
 	border-radius: 10px;
 	background-color: #fff;
 	color: var(--dark_green);
-	padding: 1rem 4rem;
-	font-size: 1.1rem;
+	padding: 0.8rem 2rem;
+	font-size: 1rem;
 	transition: all 0.25s ease-in-out;
 }
 
@@ -130,7 +131,18 @@
 		width: 30%;
 	}
 
+	.enterprise-card > h3 {
+		line-height: 2.5rem;
+		font-size: 2rem;
+	}
+
+	.enterprise-card > p {
+		font-size: 1.1rem;
+	}
+
 	.enterprise-card > button {
 		margin-top: 1rem;
+		padding: 1rem 4rem;
+		font-size: 1.1rem;
 	}
 }
