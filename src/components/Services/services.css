@@ -28,11 +28,11 @@
 }
 
 .service:hover {
-	transform: scale(1.15);
+	transform: scale(1.1);
 }
 
 .service > .icon {
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	margin-top: 1rem;
 	color: var(--green);
 	-webkit-transform: scaleX(-1);
@@ -47,13 +47,14 @@
 }
 
 .service > .detail > h2 {
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	color: var(--green);
 	margin: 0.5rem 0;
+	text-align: left;
 }
 
 .service > .detail > p {
-	font-size: 1rem;
+	font-size: 0.8rem;
 	color: #000;
 	text-align: left;
 	margin: 0;
@@ -71,8 +72,16 @@
 		flex-direction: row;
 		justify-content: space-between;
 	}
-
 	.service {
 		width: 35%;
+	}
+	.service > .detail > h2 {
+		font-size: 1.3rem;
+	}
+	.service > .detail > p {
+		font-size: 1rem;
+	}
+	.service > .icon {
+		font-size: 3.5rem;
 	}
 }
