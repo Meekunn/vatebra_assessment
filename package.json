@@ -1,7 +1,6 @@
 {
 	"name": "vatebra_assessment",
 	"version": "0.1.0",
-	"homepage": "https://Meekunn.github.io/Vatebra_assessment",
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.14.1",
@@ -11,6 +10,8 @@
 		"@types/node": "^16.7.13",
 		"@types/react": "^18.0.0",
 		"@types/react-dom": "^18.0.0",
+		"firebase": "^9.12.1",
+		"firebase-tools": "^11.15.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-icons": "^4.6.0",
