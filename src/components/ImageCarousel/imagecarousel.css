@@ -1,3 +1,7 @@
+.image-carousel {
+	overflow-x: hidden;
+}
+
 .images {
 	display: flex;
 	position: relative;

@@ -1,4 +1,5 @@
 import DemoSetup from "../components/DemoSetup/DemoSetup";
+import Enterprise from "../components/Enterprise/Enterprise";
 import Footer from "../components/Footer/Footer";
 import ImageCarousel from "../components/ImageCarousel/ImageCarousel";
 import Navbar from "../components/Navbar/Navbar";
@@ -12,6 +13,7 @@ const LandingPage = () => {
 			<ImageCarousel />
 			<Services />
 			<DemoSetup />
+			<Enterprise />
 			<Testimonials />
 			<Footer />
 		</>

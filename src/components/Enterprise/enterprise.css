@@ -1,0 +1,136 @@
+.enterprises-wrapper {
+	background: linear-gradient(
+		to top,
+		#fff 0%,
+		#fff 50%,
+		var(--light_green) 50%,
+		var(--light_green) 100%
+	);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5rem 3rem;
+}
+
+.enterprises {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+}
+
+.enterprises-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.3rem;
+	width: 100%;
+}
+
+.enterprises-heading > p {
+	background-color: var(--dark_green);
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 1rem 2rem;
+	border-radius: 10px;
+	border: 1px solid var(--dark_green);
+	transition: all 0.25s ease-in-out;
+}
+
+.enterprises-heading > p:hover {
+	transform: scale(1.05);
+}
+
+.enterprises-heading > span {
+	height: 4px;
+	border-radius: 25px;
+	width: 100%;
+	background-color: #fff;
+}
+
+.enterprise-cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	gap: 2.5rem;
+}
+
+.enterprise-card {
+	border: 1px solid var(--dark_green);
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 3rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 3rem;
+	transition: all 0.25s ease-in-out;
+}
+
+.enterprise-card:hover {
+	transform: scale(1.05);
+}
+
+.enterprise-card > h3 {
+	margin: 0;
+	color: var(--dark_green);
+	line-height: 2.5rem;
+	letter-spacing: 1.5px;
+	font-size: 2rem;
+}
+
+.enterprise-card > p {
+	margin: 0;
+	color: #000;
+	text-align: left;
+	font-size: 1.1rem;
+	line-height: 2rem;
+}
+
+.enterprise-card > button {
+	border: 1px solid var(--dark_green);
+	border-radius: 10px;
+	background-color: #fff;
+	color: var(--dark_green);
+	padding: 1rem 4rem;
+	font-size: 1.1rem;
+	transition: all 0.25s ease-in-out;
+}
+
+.enterprise-card > button:hover {
+	background-color: var(--dark_green);
+	color: #fff;
+}
+
+@media screen and (min-width: 48em) {
+	.enterprises-wrapper {
+		padding: 10rem 3rem;
+	}
+
+	.enterprises {
+		gap: 4rem;
+	}
+	.enterprises-heading > span {
+		width: 80%;
+	}
+
+	.enterprises-heading > p {
+		font-size: 1.3rem;
+		padding: 1rem 3rem;
+	}
+
+	.enterprise-cards {
+		flex-direction: row;
+	}
+
+	.enterprise-card {
+		width: 30%;
+	}
+
+	.enterprise-card > button {
+		margin-top: 1rem;
+	}
+}
