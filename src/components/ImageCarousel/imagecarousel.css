@@ -14,7 +14,7 @@
 .image.active {
 	display: block;
 	width: 100%;
-	height: 450px;
+	/* height: 450px; */
 }
 
 .overlay-items-wrapper {
@@ -24,22 +24,21 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;
+	align-items: center;
 }
 
 .overlay-items {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 2rem;
+	gap: 1rem;
 	color: #fff;
-	height: 70%;
 }
 
 .overlay-items > h1 {
-	line-height: 3rem;
+	line-height: 2rem;
 	font-weight: 400;
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 }
 
 .overlay-items > button {
@@ -49,7 +48,7 @@
 	color: #000;
 	transition: all 0.25s ease-in-out;
 	font-size: 1.2rem;
-	padding: 1rem 3rem;
+	padding: 0.5rem 3rem;
 }
 
 .overlay-items > button:hover {
@@ -83,11 +82,12 @@
 	}
 
 	.overlay-items {
-		gap: 3rem;
+		padding: 0 2rem;
+		gap: 2rem;
 	}
 
 	.overlay-items > h1 {
-		font-size: 2rem;
+		font-size: 1.6rem;
 	}
 
 	.overlay-items > button {
